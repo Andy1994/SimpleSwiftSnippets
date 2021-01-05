@@ -7,7 +7,7 @@ You can simply copy all code snippets (`.codesnippet`) into this folder, restart
 Note: Create the folder if it doesn't exist already. It is created by Xcode when user adds his first custom snippet.
 
 ## Usage
-I named all completion shortcuts to `s...`. for example, you can input 'slabel' to create UILabel code snippets.
+I named all completion shortcuts to `s...`. For example, you can input 'slabel' to create UILabel code snippets.
 
 ### Placeholder tokens
 If you want to add this nice placeholder in rounded blue rect simply put it between `<#` and `#>` and it will be transformed in both editor and final snippet.
