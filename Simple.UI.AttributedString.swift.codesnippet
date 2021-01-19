@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>satt</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let paragraphStyle = NSMutableParagraphStyle()
+paragraphStyle.lineSpacing = 3
+paragraphStyle.alignment = .left
+paragraphStyle.lineBreakMode = .byWordWrapping
+        
+let attributes: [NSAttributedString.Key: Any]
+    = [.font: &lt;#font#&gt;,
+       .foregroundColor: &lt;#textColor#&gt;,
+       .kern: 0,
+       .paragraphStyle: paragraphStyle]
+
+let attributedString = NSMutableAttributedString(string: &lt;#T##String#&gt;, attributes: attributes)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B3C0DC16-C2D9-4A90-B377-E181A3BC3645</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Simple AttributedString</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
